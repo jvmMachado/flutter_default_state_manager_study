@@ -8,14 +8,14 @@ import 'package:syncfusion_flutter_gauges/gauges.dart';
 
 import '../widgets/imc_gauge.dart';
 
-class ValueNotifierPage extends StatefulWidget {
-  const ValueNotifierPage({Key? key}) : super(key: key);
+class ImcValueNotifierPage extends StatefulWidget {
+  const ImcValueNotifierPage({Key? key}) : super(key: key);
 
   @override
-  State<ValueNotifierPage> createState() => _ValueNotifierPageState();
+  State<ImcValueNotifierPage> createState() => _ValueNotifierPageState();
 }
 
-class _ValueNotifierPageState extends State<ValueNotifierPage> {
+class _ValueNotifierPageState extends State<ImcValueNotifierPage> {
   final weightEC = TextEditingController();
   final heightEC = TextEditingController();
   final formKey = GlobalKey<FormState>();
